@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Feedback</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Rust Feedback</h1>
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="raiding.html">Raiding</a>
+            <a class="nav-link" href="monuments.html">Monuments</a>
+            <a class="nav-link" href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+    <main id="main-feedback">
+        <article id="feedback">
+            <section id="feedback-titel">
+                <h2>Welcome to the Feedback Page</h2>
+                <p>You can provide feedback about the website here through email or by filling out the form below</p>
+            </section>
+            <article id="feedback-form">
+
+                <form action="" method="POST">
+
+                    <div class="form-row">
+                        <label for="user-email">Your email:</label>
+                        <input type="email" name="user-email" placeholder="Example@gmail.com" required>
+                    </div>
+
+                    <div class="form-row textarea-row">
+                        <label for="user-message">Your feedback:</label>
+                        <textarea id="user-message" name="user-message" placeholder="Write your message here...."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit">Send feedback</button>
+
+                </form>
+
+            </article>
+        </article>
+    </main>
+    <footer class="footer">
+        <h3>The footer</h3>
+        <p>Placeholder text</p>
+    </footer>
+</body>
+
+</html>
